@@ -50,8 +50,4 @@ class CloudFormationStackResourceChecker:
         if 'NextToken' in res:
             resources += self._get_stack_resources(res['NextToken'])
         return resources
-
-if __name__ == "__main__":
-    cloud_formation_stack_resource_checker = CloudFormationStackResourceChecker()
-    cloud_formation_stack_resource_checker.get_stack_and_resource_count()
-
+    
