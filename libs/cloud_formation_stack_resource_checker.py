@@ -1,5 +1,6 @@
-import boto3
+# -*- coding: utf-8 -*-
 
+import boto3
 
 class CloudFormationStackResourceChecker:
 
